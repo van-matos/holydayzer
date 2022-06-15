@@ -36,7 +36,7 @@ app.get("/is-today-holiday", (req, res) => {
       ];
 
     const today = new Date();
-    console.log(today.toLocaleDateString()); // 1/1/2022
+    console.log(today.toLocaleDateString('en-US')); // 1/1/2022
 
     const message = "Não, hoje não é feriado";
 
